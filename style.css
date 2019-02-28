@@ -1,3 +1,31 @@
 body{
-    background-color: blue;
+    background-color: #f205c4 !important;
+}
+nav{
+    text-transform: uppercase;
+    font-family: PT Sans Narrow;
+}
+.nav-link{
+    font-weight: bold; 
+}
+/*the customization for the tags is here */
+.nav-link:hover{
+    font-style: italic;
+    font-weight: bolder;
+    background-color: #07f7fd !important;
+}
+header{
+    color: orange;
+    height: 255px;
+    width: 100%;
+    background-image: url("cover.jpeg");
+    background-size:cover;
+    text-align: center;
+}
+header p{
+    font-style: italic;
+    color: purple;
+}
+header h1{
+    color: red;
 }
