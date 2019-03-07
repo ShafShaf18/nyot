@@ -16,7 +16,7 @@ nav{
 }
 header{
     color: orange;
-    height: 255px;
+    height: 500px;
     width: 100%;
     background-image: url("cover.jpeg");
     background-size:cover;
@@ -28,4 +28,25 @@ header p{
 }
 header h1{
     color: red;
+}
+.services {
+    text-align: center;
+}
+.services i{
+    /*adjust sizr and position of the icon*/
+    font-size: 30px;
+    padding: 10px 15px;
+    /*Color changes the color of the icon*/
+    color: #fff;
+    background-color: #000;
+    
+    width:65px;
+    height: 50px;
+    
+    border-radius: 90%;
+}
+
+.services span {
+    width: 200px;
+    display: inline-block;
 }
