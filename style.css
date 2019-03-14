@@ -16,7 +16,7 @@ nav{
 }
 header{
     color: orange;
-    height: 500px;
+    height: 300px;
     width: 100%;
     background-image: url("cover.jpeg");
     background-size:cover;
@@ -33,7 +33,7 @@ header h1{
     text-align: center;
 }
 .services i{
-    /*adjust sizr and position of the icon*/
+    /*adjust size and position of the icon*/
     font-size: 30px;
     padding: 10px 15px;
     /*Color changes the color of the icon*/
@@ -49,4 +49,26 @@ header h1{
 .services span {
     width: 200px;
     display: inline-block;
+}
+/*this is the teams section and the image that is presented within that area*/
+.teams img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+/* style size for text area in contacts section the big box*/
+.contacts textarea {
+    height: 200px;
+    width: 100%;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
