@@ -1,5 +1,5 @@
 body{
-    background-color: #f205c4 !important;
+    background-color: #E6E6FA !important;
 }
 nav{
     text-transform: uppercase;
@@ -60,9 +60,7 @@ header h1{
 .contacts textarea {
     height: 200px;
     width: 100%;
-}
-
-.button {
+}.button {
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
@@ -71,4 +69,9 @@ header h1{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+.info{
+    text-align: center;
+    padding: 40px;
 }
